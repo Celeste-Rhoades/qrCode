@@ -1,12 +1,22 @@
 * {
   background-color: #d5e1ef;
 }
+body {
+  margin-top: 20vh;
+}
+.body {
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .qr img {
   height: 300px;
   width: 300px;
   margin-top: 10px;
   border-radius: 5%;
 }
+
 .qr,
 h1,
 p,
@@ -38,10 +48,12 @@ section {
   margin: auto; /* Centers the card horizontally and vertically */
 }
 .attribution {
-  margin-top: 10px;
   font-size: 11px;
-  text-align: center;
+  text-align: center; /* Aligns the text to the center */
+  margin-top: 20px; /* Adds space above the attribution text */
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none; /* Removes underline from links */
 }
