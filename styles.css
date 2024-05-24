@@ -1,0 +1,47 @@
+* {
+  background-color: #d5e1ef;
+}
+.qr img {
+  height: 300px;
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 5%;
+}
+.qr,
+h1,
+p,
+section {
+  background-color: white;
+  width: 265px;
+  padding-bottom: 10px;
+}
+.card,
+.qr {
+  /* Corrected typo */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Corrected for vertical centering */
+  text-align: center;
+  border-radius: 5%;
+}
+.card {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  background-color: white;
+  width: 325px;
+  height: 515px;
+  border-radius: 5%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds depth */
+  margin: auto; /* Centers the card horizontally and vertically */
+}
+.attribution {
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
